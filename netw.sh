@@ -13,7 +13,7 @@ iface lo inet loopback
 #eth0
 auto eth0
 iface eth0 inet static
-address 192.168.0.22
+address 192.168.0.10
 net mask 255.255.255.0
 gateway 192.168.0.1
 
