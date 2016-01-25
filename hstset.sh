@@ -1,5 +1,5 @@
 # !/bin/bash
-cat > /etc/hosts << -EOF
+cat > /etc/hosts <<-EOF
 127.0.0.1	localhost
 127.0.1.1	u2
 
@@ -8,3 +8,4 @@ cat > /etc/hosts << -EOF
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 192.168.0.1 gateway
+EOF
